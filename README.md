@@ -15,8 +15,7 @@ exit
 ## Or 
 ```bash
 git clone https://github.com/sumithemmadi/my-termux-theme
-rm -rf $HOME/.termux
-cp -vrf $HOME/my-termux-theme/ $HOME/.termux
+cp -vrf $HOME/my-termux-theme/* $HOME/.termux
 termux-reload-settings
 sleep 2
 echo -v "clear" >> $PREFIX/etc/bash.bashrc
