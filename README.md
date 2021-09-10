@@ -4,7 +4,7 @@
 ```bash
 apt update -y
 apt upgrade -y
-apt install git termux-api termux-tools -y
+apt install git termux-api termux-tools neofetch -y
 ```
 ## Quick Setup
 ```bash
