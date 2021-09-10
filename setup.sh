@@ -17,6 +17,7 @@ printf "\n\033[0;31mCreating \033[0;32m.bashrc"
 cp -rf $HOME/my-termux-theme/.bashrc $HOME
 clear
 neofetch
-printf "\n\033[0;32m ==> Created \033[0;31m.bashrc.back \033[0;32mfile for \033[0;31m.bashrc\n"
+printf "\n\033[0;32m ==> Created \033[0;31m.bashrc.back \033[0;32mfile for \033[0;31m.bashrc"
 printf "\n\033[0;32m ==> Enter '\033[0;31mexit\033[0;32m' command ,close all the tabs and reopen termux again\n"
+printf "\n\033[0;32m ==> Enter '\033[0;31mCloselose all the tabs and reopen termux again\n"
 sleep 5
