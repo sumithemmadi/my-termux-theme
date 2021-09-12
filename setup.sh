@@ -33,7 +33,7 @@ rm -rf $PREFIX/etc/motd-playstore
 FILE=$HOME/.bashrc.save
 if [ -f "$FILE" ]; then
     echo "$FILE exist."
-    echo "\033[0;31mBackup for \033[0;32m.bashrc \033[0;31malready saved as  \033[0;32m.bashrc.save\n"
+    echo -e "\033[0;31m\n\n\nBackup for \033[0;32m.bashrc \033[0;31malready saved as  \033[0;32m.bashrc.save"
 
 else 
     echo "$FILE does not exist."
@@ -43,7 +43,7 @@ fi
 
 
 sleep 10
-printf "\n\033[0;31mwait\ncreating \033[0;32m.bashrc"
+printf "\033[0;31mwait\...nCreating \033[0;32m.bashrc"
 cp -rf $HOME/my-termux-theme/.bashrc $HOME
 
 clear
