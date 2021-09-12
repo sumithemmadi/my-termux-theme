@@ -38,7 +38,7 @@ if [ -f "$FILE" ]; then
 else 
     echo "$FILE does not exist."
     cp -vrf $HOME/.bashrc $HOME/.bashrc.save
-    printf "\n\n\033[0;31mCreated backup as\033[0;32m.bashrc.save \033[0;31mfile for \033[0;32m.bashrc\n"
+    echo -e "\n\n\033[0;31mCreated backup as\033[0;32m.bashrc.save \033[0;31mfile for \033[0;32m.bashrc\n"
 fi
 
 
