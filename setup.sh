@@ -50,5 +50,5 @@ clear
 neofetch
 printf "\n\033[0;32m==> Created \033[0;31m.bashrc.save \033[0;32mfile for \033[0;31m.bashrc"
 printf "\n\033[0;32m==> Enter '\033[0;31mexit\033[0;32m' command"
-printf "\n\033[0;32m==> Closel  all the tabs and reopen termux again\n"
+printf "\n\033[0;32m==> Close all the tabs and reopen termux again\n"
 sleep 5
