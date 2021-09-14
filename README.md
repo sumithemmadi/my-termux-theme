@@ -9,5 +9,5 @@ apt install git termux-api termux-tools neofetch -y
 ## Quick Setup
 ```bash
 git clone https://github.com/sumithemmadi/my-termux-theme
-bash $HOME/my-termux-theme/setup.sh
+bash my-termux-theme/setup.sh
 ```
